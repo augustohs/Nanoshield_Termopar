@@ -42,7 +42,7 @@ class Nanoshield_Termopar {
      * @param type Thermocouple type.
      * @param avg Averaging mode.
      */
-    Nanoshield_Termopar(uint8_t cs = 8, TcType type = TC_TYPE_K, TcAveraging avg = TC_AVG_OFF);
+    Nanoshield_Termopar(uint8_t cs = 13, TcType type = TC_TYPE_K, TcAveraging avg = TC_AVG_OFF);
 
     /**
      * @brief Initializes the module.
